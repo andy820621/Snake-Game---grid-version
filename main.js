@@ -16,7 +16,7 @@ let gameOver = false;
 function main(currentTime) {
 	if (gameOver) {
 		if (confirm("You Lose. Press ok to restart.")) {
-			window.location = "/";
+			location.reload();
 		}
 		return;
 	}
